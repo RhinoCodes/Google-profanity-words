@@ -1,3 +1,4 @@
+name: Convert List To Json
 on: push
 
 jobs:
@@ -6,4 +7,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
-    - run: python txt-to-json.py
+    - run: python txt_to_json.py
